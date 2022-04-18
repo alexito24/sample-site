@@ -40,11 +40,10 @@
 
 .footer {
   width: 100%;
-  height: 10%;
+  height: 7%;
   background: #12a755;
   opacity: 95%;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   text-align: center;
   margin: 0;
 }
@@ -58,4 +57,14 @@
 img {
   max-height: 500px;
   border-radius: 2pc;
+}
+
+.gap {
+  margin: 500px;
+}
+
+.whiteText {
+  color: white;
+  font-family: cursive;
+  text-align: center;
 }
