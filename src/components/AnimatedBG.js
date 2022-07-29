@@ -3,7 +3,7 @@ import BIRDS from "vanta/dist/vanta.birds.min";
 import NET from "vanta/dist/vanta.net.min";
 import HALO from "vanta/dist/vanta.halo.min";
 import WAVES from "vanta/dist/vanta.waves.min";
-import CLOUDS from "vanta/dist/vanta.clouds.min";
+import DOTS from "vanta/dist/vanta.dots.min";
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 export const BIRDSBG = (props) => {
@@ -96,13 +96,13 @@ export const HALOBG = (props) => {
   );
 };
 
-export const CLOUDSBG = (props) => {
+export const DOTSBG = (props) => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        CLOUDS({
+        DOTS({
           el: myRef.current,
           mouseControls: true,
           touchControls: true,
