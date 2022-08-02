@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Navigation from "./Navigation";
+import Navigation2 from "./Navigation2";
 import NET from "vanta/dist/vanta.net.min";
 import { BIRDSBG, NETBG, HALOBG, CLOUDSBG, WAVESBG } from "./AnimatedBG";
 
@@ -57,7 +57,7 @@ export default function PageRender() {
   return (
     <div className="parent">
       <Header />
-      <Navigation
+      <Navigation2
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />

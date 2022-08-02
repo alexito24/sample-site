@@ -32,8 +32,8 @@
 }
 
 .header {
-  position: absolute;
-  top: 0;
+  /* position: absolute;
+  top: 0; */
   text-shadow: 2px 2px lightgreen;
   font-family: "The Nautigal", cursive;
 }
@@ -72,4 +72,8 @@ img {
 
 .nomargin {
   margin: -50px;
+}
+
+.spacer {
+  margin: 27px;
 }
