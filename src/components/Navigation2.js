@@ -50,7 +50,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        <h1 className="header">My site</h1>
       </Typography>
       <Divider />
       <List>
@@ -70,7 +70,7 @@ function DrawerAppBar(props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar component="nav">
+      <AppBar component="nav" position="static">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -80,6 +80,10 @@ function DrawerAppBar(props) {
             sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />
+            <div className="gap1"></div>
+            <Typography>
+              <h1 className="header">My site</h1>
+            </Typography>
           </IconButton>
           <Typography
             variant="h6"
@@ -117,20 +121,8 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </Box>
-      {/* <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-        <Typography>hello from somewhere</Typography>
-      </Box> */}
     </Box>
   );
 }
-
-DrawerAppBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
-};
 
 export default DrawerAppBar;

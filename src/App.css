@@ -63,6 +63,9 @@ img {
 .gap {
   margin: 550px;
 }
+.gap1 {
+  margin-right: 20px;
+}
 
 .whiteText {
   color: white;
@@ -74,6 +77,3 @@ img {
   margin: -50px;
 }
 
-.spacer {
-  margin: 27px;
-}
