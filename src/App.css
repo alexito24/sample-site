@@ -64,7 +64,7 @@ img {
   img {
     max-width: 300px;
     border-radius: 2pc;
-    margin: 0px -50px -50px -50px;
+    margin: 25px -50px 25px -50px;
     box-shadow: 5px 5px 5px rgb(7, 105, 137);
   }
     .content {
