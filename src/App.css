@@ -59,11 +59,21 @@ img {
   border-radius: 2pc;
   box-shadow: 5px 5px 5px rgb(7, 105, 137);
 }
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 350px;
+    border-radius: 2pc;
+    box-shadow: 5px 5px 5px rgb(7, 105, 137);
+  }
+}
 
 .gap {
   margin: 550px;
 }
 .gap1 {
+  margin: 60px;
+}
+.gap2 {
   margin-right: 20px;
 }
 

@@ -70,7 +70,7 @@ function DrawerAppBar(props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar component="nav" position="static">
+      <AppBar component="nav">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -80,7 +80,7 @@ function DrawerAppBar(props) {
             sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />
-            <div className="gap1"></div>
+            <div className="gap2"></div>
             <Typography>
               <h1 className="header">My site</h1>
             </Typography>
