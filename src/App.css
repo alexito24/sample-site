@@ -51,8 +51,9 @@
 .content {
   text-align: center;
   margin: 50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
+
 
 img {
   max-height: 500px;
@@ -61,10 +62,16 @@ img {
 }
 @media screen and (max-width: 600px) {
   img {
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 2pc;
+    margin: 0px -50px -50px -50px;
     box-shadow: 5px 5px 5px rgb(7, 105, 137);
   }
+    .content {
+      text-align: center;
+      margin: 50px;
+      /* margin-bottom: 100px; */
+    }
 }
 
 .gap {
