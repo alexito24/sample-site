@@ -32,28 +32,25 @@
 
 .content {
   text-align: center;
-  margin: 50px;
-  /* margin-bottom: 100px; */
+  margin: 0 50px 0 50px;
 }
 
+.carouselImg {
+  max-height: 60vh;
+}
 
-img {
+.img1 {
   max-height: 500px;
   border-radius: 2pc;
   box-shadow: 5px 5px 5px rgb(7, 105, 137);
 }
 @media screen and (max-width: 600px) {
-  img {
+  .img1 {
     max-width: 300px;
     border-radius: 2pc;
     margin: 25px -50px 25px -50px;
     box-shadow: 5px 5px 5px rgb(7, 105, 137);
   }
-    .content {
-      text-align: center;
-      margin: 50px;
-      /* margin-bottom: 100px; */
-    }
 }
 
 .gap {

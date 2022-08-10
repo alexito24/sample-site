@@ -13,11 +13,11 @@ export default function Services() {
       <h2> These are my services</h2>
       <ul>
         <li>websites</li>
-        <img src={pht1} alt="moutain" />
+        <img className="img1" src={pht1} alt="moutain" />
         <li>web apps</li>
-        <img src={pht2} alt="moutain" />
+        <img className="img1" src={pht2} alt="moutain" />
         <li>updating web apps</li>
-        <img src={pht3} alt="moutain" />
+        <img className="img1" src={pht3} alt="moutain" />
       </ul>
     </div>
   );
