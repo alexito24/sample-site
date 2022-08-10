@@ -51,6 +51,9 @@
     margin: 25px -50px 25px -50px;
     box-shadow: 5px 5px 5px rgb(7, 105, 137);
   }
+    .carouselImg {
+      max-height: 200px;
+    }
 }
 
 .gap {
