@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Footer from "./Footer";
-import Navigation2 from "./Navigation2";
+import Navigation from "./Navigation";
 import NET from "vanta/dist/vanta.net.min";
 import { BIRDSBG, NETBG, HALOBG, CLOUDSBG, WAVESBG } from "./AnimatedBG";
 
@@ -55,12 +55,10 @@ export default function PageRender() {
 
   return (
     <div className="parent">
-      <Navigation2
+      <Navigation
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      {/* {WAVESBG()} */}
-      <div className="gap1">WBA</div>
 
       <div className="content">{renderPage()}</div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
